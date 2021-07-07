@@ -13,12 +13,6 @@ const Header = () => {
         </div>
         <ul className='item'>
           <li className='item-group'>
-            <Link to='/cart'>
-              Cart
-              <i className='fas fa-shopping-basket'></i>
-            </Link>
-          </li>
-          <li className='item-group'>
             <Link to='/signin'>
               SignIn
               <i className='fas fa-user'></i>
