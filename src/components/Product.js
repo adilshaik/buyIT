@@ -4,8 +4,10 @@ import { Card } from 'react-bootstrap'
 import Rating from './Rating'
 
 const Product = ({ product }) => {
+  // const [cart, setCart] = useState([product])
+
   return (
-    <Card className='my-3 p-3 rounded text-center'>
+    <div>
       <Link to={`product/${product._id}`}>
         <Card.Img src={product.image} variant='top' />
       </Link>
@@ -27,7 +29,7 @@ const Product = ({ product }) => {
           Rs.{product.price}
         </Card.Text>
       </Card.Body>
-    </Card>
+    </div>
   )
 }
 
