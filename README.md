@@ -1,4 +1,4 @@
-# blogIT
+# buyIT
 
 > Ecommerce website using ReactJs
 
